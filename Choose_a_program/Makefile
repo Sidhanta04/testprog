@@ -1,6 +1,6 @@
 SRC = unity/unity.c\
 src/program_choose.c\
-test/test_program_choose.c
+test/test_program_choose.c\
 
 INC = -Iunity\
 -Iinc\
