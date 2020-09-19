@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: make all
-      run:  make all -C testprog/Choose_a_program/
+      run:  make all -C Choose_a_program/
 
