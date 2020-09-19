@@ -55,7 +55,7 @@ int pallindrome(int flag_number)
     dup=flag_number;
     while(count>=1)
     {
-        reverse=reverse+(dup%10 * pow(10,count-1));
+        reverse=reverse+(dup%10 * (10^count-1));
         dup=dup/10;
         count--;
     }
